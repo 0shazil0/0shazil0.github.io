@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "pmo-enhancements",
-      "title": "PMO Enhancements",
+      "title": "Project Management Office (PMO)",
       "category": "Power BI / Power Apps",
-      "summary": "Ministry of Youth Affairs | Power Platform Solution",
+      "summary": "Ministry of Youth Affairs | Power Platform Solution | Sharepoint Lists | Power Apps | Power Automate | Power BI",
       "bullets": [
         "This low-code platform replaces spreadsheet tracking and manual follow-ups with a structured project governance workflow. Requests move through staged approvals, approved work becomes trackable projects, and the PMO team can monitor KPIs, milestones, documents, and reporting from one system.",
         "Built with Power Apps, Power Automate, SharePoint Lists, and Power BI.",
@@ -14,8 +14,8 @@
       "tech": [],
       "image": "assets/images/portfolio/unified_portfolio_report_v2_01.png",
       "gallery": [
-        "assets/images/portfolio/unified_portfolio_report_v2_02.png",
-        "assets/images/portfolio/unified_portfolio_report_v2_03.jpg"
+        "assets/images/portfolio/unified_portfolio_report_v2_01.png",
+        "assets/images/portfolio/unified_portfolio_report_v2_02.png"
       ]
     },
     {
@@ -30,10 +30,11 @@
         "Useful for quick review of trends, stock signals, and product performance."
       ],
       "tech": [],
-      "image": "assets/images/portfolio/unified_portfolio_report_v2_02.png",
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_07.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_portfolio_report_v2_03.jpg",
-        "assets/images/portfolio/unified_portfolio_report_v2_04.jpg"
+        "assets/images/portfolio/amazon1.png",
+        "assets/images/portfolio/amazon2.png",
+        "assets/images/portfolio/amazon3.png"
       ]
     },
     {
@@ -48,17 +49,19 @@
         "Provides a detailed drill-down page for granular transaction analysis."
       ],
       "tech": [],
-      "image": "assets/images/portfolio/unified_portfolio_report_v2_03.jpg",
+      "image":  "assets/images/portfolio/ATM_Transaction_analysis_2.png",
       "gallery": [
-        "assets/images/portfolio/unified_portfolio_report_v2_04.jpg",
-        "assets/images/portfolio/unified_portfolio_report_v2_05.jpg"
+        "assets/images/portfolio/ATM_Transaction_analysis_1.png",
+        "assets/images/portfolio/ATM_Transaction_analysis_2.png",
+        "assets/images/portfolio/ATM_Transaction_analysis_3.png",
+        "assets/images/portfolio/ATM_Transaction_analysis_4.png"
       ]
     },
     {
       "id": "customer-churn-etl-report",
       "title": "Customer Churn ETL Report",
-      "category": "Power BI / Power Apps",
-      "summary": "AWS Glue | Athena | Airflow | Power BI",
+      "category": "Power BI / Power Apps", 
+      "summary": "AWS Glue | Athena | Airflow | Power BI ",
       "bullets": [
         "This project demonstrates a serverless analytics pipeline. Raw data is stored in S3, cataloged with Glue Crawler, transformed with Glue ETL, queried in Athena, and consumed in Power BI through ODBC. Airflow automates the flow from ingestion to refresh.",
         "Raw, processed, and query-result buckets are organized in S3.",
@@ -66,16 +69,21 @@
         "Athena and Power BI provide the reporting layer, with Airflow for orchestration."
       ],
       "tech": [],
-      "image": "assets/images/portfolio/unified_portfolio_report_v2_04.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_portfolio_report_v2_05.jpg",
-        "assets/images/portfolio/unified_portfolio_report_v2_06.jpg"
+        "assets/images/portfolio/CC_ETL1.png",
+        "assets/images/portfolio/CC_ETL2.png",
+        "assets/images/portfolio/CC_ETL3.png",
+        "assets/images/portfolio/CC_ETL4.png",
+        "assets/images/portfolio/CC_ETL5.png",
+        "assets/images/portfolio/CC_ETL6.png"
+    
       ]
     },
     {
       "id": "financial-movie-analysis-using-excel",
       "title": "Financial Movie Analysis using Excel",
-      "category": "Power BI / Power Apps",
+      "category": "Power BI / Power Apps",  
       "summary": "Excel | Power Query | Pivot Tables | Charts",
       "bullets": [
         "This analysis merges IMDb and TMDb data into a single master dataset, then uses Power Query and Excel visuals to study revenue, budget, ROI, genres, countries, runtime, and rating patterns.",
@@ -84,10 +92,9 @@
         "Identified strong budget-revenue relationships and high-ROI cases."
       ],
       "tech": [],
-      "image": "assets/images/portfolio/unified_portfolio_report_v2_05.jpg",
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_03.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_portfolio_report_v2_06.jpg",
-        "assets/images/portfolio/unified_portfolio_report_v2_07.jpg"
+        "assets/images/portfolio/unified_portfolio_report_v2_03.jpg"
       ]
     },
     {
@@ -112,10 +119,9 @@
         "Axios",
         "Docker"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_01.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg"
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg"
       ]
     },
     {
@@ -136,10 +142,9 @@
         "TensorFlow/Keras",
         "CSV logging"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_01.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg"
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_01.jpg"
       ]
     },
     {
@@ -161,10 +166,10 @@
         "LLM APIs",
         "XGBoost/LSTM"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_11.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg"
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_10.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_11.jpg"
       ]
     },
     {
@@ -187,10 +192,9 @@
         "NumPy",
         "Gunicorn"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_08.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg"
+          "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_08.jpg"
       ]
     },
     {
@@ -211,10 +215,14 @@
         "Apache Airflow",
         "Python"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg",
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg"
+        "assets/images/portfolio/CC_ETL1.png",
+        "assets/images/portfolio/CC_ETL2.png",
+        "assets/images/portfolio/CC_ETL3.png",
+        "assets/images/portfolio/CC_ETL4.png",
+        "assets/images/portfolio/CC_ETL5.png",
+        "assets/images/portfolio/CC_ETL6.png"
       ]
     },
     {
@@ -236,10 +244,11 @@
         "LSTM",
         "Prophet"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg",
+      "image": "assets/images/portfolio/demandforecast3.png",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_08.jpg"
+        "assets/images/portfolio/demandforecast1.png",
+        "assets/images/portfolio/demandforecast2.png",
+        "assets/images/portfolio/demandforecast3.png"
       ]
     },
     {
