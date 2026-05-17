@@ -1,0 +1,320 @@
+{
+  "projects": [
+    {
+      "id": "pmo-enhancements",
+      "title": "PMO Enhancements",
+      "category": "Power BI / Power Apps",
+      "summary": "Ministry of Youth Affairs | Power Platform Solution",
+      "bullets": [
+        "This low-code platform replaces spreadsheet tracking and manual follow-ups with a structured project governance workflow. Requests move through staged approvals, approved work becomes trackable projects, and the PMO team can monitor KPIs, milestones, documents, and reporting from one system.",
+        "Built with Power Apps, Power Automate, SharePoint Lists, and Power BI.",
+        "Supports Manager -> Chief -> Director approval flow with notifications.",
+        "Covers request submission, project creation, milestone updates, documents, and executive reporting."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_01.png",
+      "gallery": [
+        "assets/images/portfolio/unified_portfolio_report_v2_02.png",
+        "assets/images/portfolio/unified_portfolio_report_v2_03.jpg"
+      ]
+    },
+    {
+      "id": "amazon-dashboard",
+      "title": "Amazon Dashboard",
+      "category": "Power BI / Power Apps",
+      "summary": "Power BI retail analytics",
+      "bullets": [
+        "An interactive retail dashboard for product and sales analysis. The layout highlights category browsing, product performance, and summary trends so stakeholders can move from overview to detail quickly.",
+        "Designed to present sales and product performance in a clean, executive-friendly layout.",
+        "Highlights category-level browsing and product-level comparison.",
+        "Useful for quick review of trends, stock signals, and product performance."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_02.png",
+      "gallery": [
+        "assets/images/portfolio/unified_portfolio_report_v2_03.jpg",
+        "assets/images/portfolio/unified_portfolio_report_v2_04.jpg"
+      ]
+    },
+    {
+      "id": "atm-transactions-analysis-dashboard",
+      "title": "ATM Transactions Analysis Dashboard",
+      "category": "Power BI / Power Apps",
+      "summary": "Power BI banking operations dashboard",
+      "bullets": [
+        "This dashboard summarizes ATM performance through cost analysis, revenue trends, transaction patterns, and regional comparisons. It supports monitoring of operational health and financial performance in a single view.",
+        "Shows monthly KPIs, revenue by state, and transaction mix analysis.",
+        "Compares financial and non-financial transactions to surface operational behavior.",
+        "Provides a detailed drill-down page for granular transaction analysis."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_03.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_portfolio_report_v2_04.jpg",
+        "assets/images/portfolio/unified_portfolio_report_v2_05.jpg"
+      ]
+    },
+    {
+      "id": "customer-churn-etl-report",
+      "title": "Customer Churn ETL Report",
+      "category": "Power BI / Power Apps",
+      "summary": "AWS Glue | Athena | Airflow | Power BI",
+      "bullets": [
+        "This project demonstrates a serverless analytics pipeline. Raw data is stored in S3, cataloged with Glue Crawler, transformed with Glue ETL, queried in Athena, and consumed in Power BI through ODBC. Airflow automates the flow from ingestion to refresh.",
+        "Raw, processed, and query-result buckets are organized in S3.",
+        "Glue crawler and ETL jobs prepare clean, query-ready data.",
+        "Athena and Power BI provide the reporting layer, with Airflow for orchestration."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_04.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_portfolio_report_v2_05.jpg",
+        "assets/images/portfolio/unified_portfolio_report_v2_06.jpg"
+      ]
+    },
+    {
+      "id": "financial-movie-analysis-using-excel",
+      "title": "Financial Movie Analysis using Excel",
+      "category": "Power BI / Power Apps",
+      "summary": "Excel | Power Query | Pivot Tables | Charts",
+      "bullets": [
+        "This analysis merges IMDb and TMDb data into a single master dataset, then uses Power Query and Excel visuals to study revenue, budget, ROI, genres, countries, runtime, and rating patterns.",
+        "Unified multiple datasets into a single analytical model.",
+        "Calculated ROI and explored performance by genre, country, runtime, and release year.",
+        "Identified strong budget-revenue relationships and high-ROI cases."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/unified_portfolio_report_v2_05.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_portfolio_report_v2_06.jpg",
+        "assets/images/portfolio/unified_portfolio_report_v2_07.jpg"
+      ]
+    },
+    {
+      "id": "si3-analytics-dashboard",
+      "title": "SI3 Analytics Dashboard",
+      "category": "AI & Data Science",
+      "summary": "A full-stack analytics platform for tracking LinkedIn growth and email campaign performance in one place.",
+      "bullets": [
+        "Interactive LinkedIn and email analytics views with KPI cards and trend charts.",
+        "Excel/CSV upload workflow for analytics ingestion and refresh.",
+        "Dockerized deployment structure for repeatable local or production-style runs."
+      ],
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Chart.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Multer",
+        "Axios",
+        "Docker"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_01.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg"
+      ]
+    },
+    {
+      "id": "work-hour-calculator",
+      "title": "Work Hour Calculator",
+      "category": "AI & Data Science",
+      "summary": "A webcam-based computer vision prototype that classifies whether an employee is working or not working and logs time spent in each state.",
+      "bullets": [
+        "Uses MobileNet-SSD for person detection and MediaPipe for landmark extraction.",
+        "TensorFlow model predicts working versus not_working from a short frame sequence.",
+        "Durations are written to CSV for simple downstream reporting.",
+        "Live working-status detection"
+      ],
+      "tech": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "TensorFlow/Keras",
+        "CSV logging"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg"
+      ]
+    },
+    {
+      "id": "berkana-ai",
+      "title": "Berkana AI",
+      "category": "AI & Data Science",
+      "summary": "An AI-powered financial intelligence platform with chat, memory, market data, sentiment analysis, and forecasting.",
+      "bullets": [
+        "Combines a Flask web app with chat sessions, login, preferences, and history management.",
+        "Integrates LLM responses, market/news collection, and vector-style memory search.",
+        "Includes forecasting outputs, charts, and a strong focus on confidence and safety controls."
+      ],
+      "tech": [
+        "Flask",
+        "PostgreSQL",
+        "pgvector-style memory",
+        "SpaCy",
+        "FinBERT",
+        "LLM APIs",
+        "XGBoost/LSTM"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg"
+      ]
+    },
+    {
+      "id": "bipop",
+      "title": "BiPOP",
+      "category": "AI & Data Science",
+      "summary": "A translational immunology platform that predicts systemic biological effects and supports reverse design workflows.",
+      "bullets": [
+        "Maps perturbations into organ-level outcomes using scoring, translation, and fit engines.",
+        "Includes 3D BidirBody visualization for systemic prediction and interpretation.",
+        "Combines Flask APIs, XGBoost models, and cheminformatics checks for a complete workflow.",
+        "System architecture overview"
+      ],
+      "tech": [
+        "Flask",
+        "XGBoost",
+        "Three.js",
+        "RDKit",
+        "Pandas",
+        "NumPy",
+        "Gunicorn"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_04.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg"
+      ]
+    },
+    {
+      "id": "customer-churn-etl-dashboard",
+      "title": "Customer Churn ETL Dashboard",
+      "category": "AI & Data Science",
+      "summary": "A cloud ETL and reporting pipeline that prepares churn data for Power BI through AWS services and automation.",
+      "bullets": [
+        "Uses S3, Glue crawlers, Glue jobs, and Athena to transform and query data.",
+        "Connects to Power BI through ODBC for a clean reporting layer.",
+        "Airflow orchestration supports scheduled and recoverable pipeline execution."
+      ],
+      "tech": [
+        "AWS S3",
+        "AWS Glue",
+        "Amazon Athena",
+        "Power BI",
+        "Apache Airflow",
+        "Python"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_05.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg"
+      ]
+    },
+    {
+      "id": "demand-forecasting-notebook",
+      "title": "Demand Forecasting Notebook",
+      "category": "AI & Data Science",
+      "summary": "An end-to-end retail forecasting study for Walmart weekly sales, covering analysis, feature engineering, and model comparison.",
+      "bullets": [
+        "Explores seasonality, holidays, store types, and macro variables with clear visual analysis.",
+        "Compares XGBoost, SARIMA, LSTM, and Prophet across the same problem.",
+        "Shows how classical time-series and ML methods can be evaluated side by side."
+      ],
+      "tech": [
+        "Python",
+        "pandas",
+        "matplotlib",
+        "XGBoost",
+        "SARIMA",
+        "LSTM",
+        "Prophet"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_06.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_08.jpg"
+      ]
+    },
+    {
+      "id": "google-maps-business-scraper",
+      "title": "Google Maps Business Scraper",
+      "category": "AI & Data Science",
+      "summary": "A Playwright-based scraping system for extracting business listings, reviews, images, and contact details at scale.",
+      "bullets": [
+        "Includes retry logic, progress tracking, and browser health recovery.",
+        "Exports structured CSV files and synchronizes results to Google Drive with rclone.",
+        "Designed for multi-city or multi-state scraping with robust recovery support."
+      ],
+      "tech": [
+        "Python",
+        "Playwright",
+        "pandas",
+        "threading",
+        "rclone",
+        "CSV pipelines"
+      ],
+      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_07.jpg",
+      "gallery": [
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_08.jpg",
+        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_09.jpg"
+      ]
+    },
+    {
+      "id": "sphere---service-marketplace-platform",
+      "title": "SPHERE - Service Marketplace Platform",
+      "category": "Web Development",
+      "summary": "SPHERE is a Django 5 marketplace platform built for service booking, provider operations, payment handling, and live communication between customers and service providers.",
+      "bullets": [
+        "Customer booking lifecycle with checkout and status management",
+        "Stripe payment flow with payout tracking and reconciliation",
+        "Provider product marketplace with cart and inventory handling",
+        "Real-time chat and notifications through Channels/WebSockets",
+        "Admin workflows for approvals, exports, promotions, and operations",
+        "Django 5, PostgreSQL, Channels, Daphne, and Stripe integration",
+        "Separate app structure for main pages, customers, and providers",
+        "WebSocket-based messaging and notification support",
+        "Background commands for reminders and data operations",
+        "Deployment-ready runtime configuration with ASGI and health checks",
+        "Portfolio value: SPHERE demonstrates the ability to combine commerce logic, real-time user interaction, and admin-heavy workflows into one cohesive web platform."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_01.png",
+      "gallery": [
+        "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_02.png",
+        "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_01.png"
+      ]
+    },
+    {
+      "id": "pentabytexcom---digital-agency-website",
+      "title": "Pentabytex.com - Digital Agency Website",
+      "category": "Web Development",
+      "summary": "Pentabytex.com is a professional digital agency website focused on AI integration, web development, mobile app development, custom software, digital marketing, and e-commerce services.",
+      "bullets": [
+        "Lead-oriented homepage with strong calls to action",
+        "Clear service positioning and trust-building content blocks",
+        "Team presentation, testimonials, and booking flow",
+        "WordPress-based structure for easy content management",
+        "Marketing and service messaging aligned with business goals",
+        "WordPress theme foundation with reusable templates and partials",
+        "PHP, HTML, CSS, and JavaScript for front-end presentation",
+        "Migration-friendly structure for scalable content updates",
+        "Conversion-focused layout that supports client acquisition",
+        "Suitable for agency branding, service storytelling, and portfolio growth",
+        "Portfolio value: Pentabytex.com shows how a business website can be designed to communicate professionalism, services, and credibility while remaining easy to maintain in a CMS environment."
+      ],
+      "tech": [],
+      "image": "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_02.png",
+      "gallery": [
+        "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_01.png",
+        "assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_02.png"
+      ]
+    }
+  ]
+}

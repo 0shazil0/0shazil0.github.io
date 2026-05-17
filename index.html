@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shazil Ahmed Shaikh | Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Shazil Ahmed Shaikh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shazil Ahmed Shaikh">Shazil Ahmed Shaikh</h1>
+
+          <p class="title">Data Scientist / AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:Shazilshaikh756@gmail.com" class="contact-link">Shazilshaikh756@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923323367027" class="contact-link">+92 332 3367027</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, Sindh, Pakistan</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/shazilshaikh" class="contact-link" target="_blank" rel="noreferrer">linkedin.com/in/shazilshaikh</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/0shazil0" class="contact-link" target="_blank" rel="noreferrer">github.com/0shazil0</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shazilshaikh" class="social-link" target="_blank" rel="noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/0shazil0" class="social-link" target="_blank" rel="noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:Shazilshaikh756@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio Detail</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Data Scientist and AI Engineer focused on practical, end-to-end solutions across machine learning,
+            computer vision, NLP, analytics, and automation. I build systems that move from clean data to deployable
+            products using Python, SQL, Flask, Streamlit, Power BI, and cloud tools.
+          </p>
+
+          <p>
+            My work spans dashboards, forecasting, ETL pipelines, and AI products. I care about clear interfaces,
+            reliable pipelines, and measurable outcomes for stakeholders.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Computer vision, NLP, forecasting, and model-driven decision systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="dashboard icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Analytics & Dashboards</h4>
+
+                <p class="service-item-text">
+                  Executive-ready KPI reporting and storytelling in Power BI and Excel.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="automation icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation & ETL</h4>
+
+                <p class="service-item-text">
+                  Cloud pipelines, scraping systems, and data transformations at scale.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="deployment icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Apps & Deployment</h4>
+
+                <p class="service-item-text">
+                  Production-ready apps with APIs, dashboards, and clean interfaces.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Selected Highlights</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_03.jpg" alt="Berkana AI" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Berkana AI</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    AI-powered financial intelligence with chat, market data, sentiment analysis, and forecasting.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_02.jpg" alt="Work Hour Calculator" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Work Hour Calculator</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Computer vision system that detects working status and logs time across shifts.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/portfolio/unified_portfolio_report_v2_01.png" alt="PMO Enhancements" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>PMO Enhancements</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Power Platform workflow that replaces spreadsheet governance with approvals and KPI tracking.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/portfolio/web_development_unified_portfolio_ahmed_shaikh_01.png" alt="SPHERE Platform" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SPHERE Platform</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Django marketplace with booking, payments, and real-time communications.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Project Highlight</h4>
+
+              <div data-modal-text>
+                <p>
+                  Select a highlight to view its summary.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.E. Computer Systems Engineering</h4>
+
+              <span>Dec 2022 — Dec 2026</span>
+
+              <p class="timeline-text">
+                Mehran University of Engineering &amp; Technology (MUET), Jamshoro, Pakistan. Specialization in Data
+                Science, AI, and ML with coursework in DSA and OOP.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI / Data Engineer — DEVCORE</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Built LLM-based financial AI (Berkana AI), biomedical ML platform (BiPOP), and serverless AWS ETL with
+                Power BI dashboards and Airflow automation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelancer — Fiverr</h4>
+
+              <span>Dec 2024 — Ongoing</span>
+
+              <p class="timeline-text">
+                Delivered data science, AI, and ML solutions with consistent 5/5 client ratings.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Data Analyst — PentabyteX</h4>
+
+              <span>Sep 2024 — Sep 2025</span>
+
+              <p class="timeline-text">
+                Built a scalable Google Maps scraping pipeline with retry logic, data exports, and Azure VM deployment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Intern — SAINCUBE</h4>
+
+              <span>May 2024 — Jul 2024</span>
+
+              <p class="timeline-text">
+                Developed activity detection and face recognition systems using OpenCV, MediaPipe, Flask, and Firebase.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT Intern — L.U.M.H.S.</h4>
+
+              <span>May 2023 — Jun 2023</span>
+
+              <p class="timeline-text">
+                Built web interfaces and supported data preprocessing, EDA, and statistical analysis in Python.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Core Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning &amp; AI</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering &amp; ETL</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Analytics &amp; Visualization</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Apps &amp; Deployment</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list" data-filter-list></ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list" data-select-list></ul>
+
+          </div>
+
+          <ul class="project-list" data-project-list></ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO DETAIL
+      -->
+
+      <article class="portfolio-detail" data-page="portfolio detail">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio Detail</h2>
+        </header>
+
+        <section class="portfolio-detail" data-portfolio-detail>
+          <div class="detail-actions">
+            <button class="detail-back-btn" type="button" data-detail-back>
+              <ion-icon name="arrow-back-outline"></ion-icon>
+              <span>Back to Portfolio</span>
+            </button>
+          </div>
+
+          <div class="detail-empty" data-detail-empty>
+            <p>Select a project in the Portfolio section to view details here.</p>
+          </div>
+
+          <div class="detail-content" data-detail-content>
+            <div class="detail-hero">
+              <figure class="detail-image">
+                <img src="./assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_01.jpg" alt="Project preview" loading="lazy" data-detail-image>
+              </figure>
+
+              <div class="detail-summary">
+                <p class="detail-category" data-detail-category>Category</p>
+                <h3 class="h3 detail-title" data-detail-title>Project Title</h3>
+                <p class="detail-text" data-detail-summary>Project summary appears here.</p>
+              </div>
+            </div>
+
+            <div class="detail-section">
+              <h4 class="h4 detail-section-title">Highlights</h4>
+              <ul class="detail-list" data-detail-bullets></ul>
+            </div>
+
+            <div class="detail-section" data-detail-tech-section>
+              <h4 class="h4 detail-section-title">Tech Stack</h4>
+              <ul class="detail-tags" data-detail-tech></ul>
+            </div>
+
+            <div class="detail-section">
+              <h4 class="h4 detail-section-title">Gallery</h4>
+              <div class="detail-gallery" data-detail-gallery></div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
