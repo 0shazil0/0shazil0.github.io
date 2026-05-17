@@ -1,0 +1,12 @@
+BiPOP V4/V5 – AI-Driven Immunotherapy Prediction Platform (FIVERR.)
+Built a dual-stream ML framework using XGBoost, scikit-learn, Pandas, and NumPy to train 148+ immune-response prediction models with concordance scoring, developed a SciPy Differential Evolution engine for personalized therapy optimization, and deployed an interactive Flask web platform with multi-species datasets on Railway Cloud.
+Tech Stack: Python, Flask, HTML, CSS, JavaScript, XGBoost, scikit-learn, Pandas, NumPy, SciPy, SHAP, Joblib, SQLite/CSV, Bootstrap, Railway Cloud
+
+
+Playwright Automation Deployed on Azure VM (FIVERR)
+Developed and deployed a cloud-hosted Playwright script on an Azure Linux VM running 24/7, enabling continuous, reliable web scraping with automated process management.
+Tech Stack: Python, Playwright, Chromium, Azure VM, PM2, CSV/JSON
+
+Decision Support Dashboard for Land Cover Classification (SUPARCO)
+Developed a Streamlit dashboard to visualize Sentinel-2 land cover classifications, perform zonal and time-series analysis, and support urban planning and environmental decision-making.
+Tech Stack: Python, Streamlit, GeoPandas, Rasterio, GDAL, Folium, Random Forest, K-Means, NDVI
