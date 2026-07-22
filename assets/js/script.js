@@ -270,6 +270,14 @@ const populateDetail = function (project) {
 const showDetailPage = function (project) {
   populateDetail(project);
   activatePage("portfolio detail");
+  window.location.hash = project.id;
+}
+
+const handleHashRoute = function () {
+  const hash = window.location.hash.slice(1);
+  if (!hash || !projects.length) return;
+  const project = projects.find(function (item) { return item.id === hash; });
+  if (project) showDetailPage(project);
 }
 
 const initPortfolio = function () {
@@ -297,6 +305,7 @@ const loadPortfolioData = function () {
     .then(function (data) {
       projects = data.projects || [];
       initPortfolio();
+      handleHashRoute();
     })
     .catch(function () {
       projectList.innerHTML = "<li class=\"project-item active\"><div class=\"portfolio-empty\">Portfolio data is unavailable. Please refresh the page after uploading assets/data/portfolio_projects.json.</div></li>";
@@ -350,9 +359,12 @@ if (projectList) {
 
 if (detailBackBtn) {
   detailBackBtn.addEventListener("click", function () {
+    window.location.hash = "";
     activatePage("portfolio");
   });
 }
+
+window.addEventListener("hashchange", handleHashRoute);
 
 
 // contact form variables
