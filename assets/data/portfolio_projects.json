@@ -151,25 +151,50 @@
       "id": "berkana-ai",
       "title": "Berkana AI",
       "category": "AI & Data Science",
-      "summary": "An AI-powered financial intelligence platform with chat, memory, market data, sentiment analysis, and forecasting.",
+      "summary": "Berkana AI is an advanced, self-evolving financial intelligence platform that combines AI, ML, and real-time market data to deliver personalized financial insights. It features a Flask-based web interface with multi-chat sessions, entity-aware memory, sentiment analysis, hybrid forecasting models, and reinforcement learning-driven narrative adaptation — all backed by a PostgreSQL + pgvector persistence layer.",
       "bullets": [
-        "Combines a Flask web app with chat sessions, login, preferences, and history management.",
-        "Integrates LLM responses, market/news collection, and vector-style memory search.",
-        "Includes forecasting outputs, charts, and a strong focus on confidence and safety controls."
+        "Flask-based responsive web interface with login, registration, password reset, multi-chat sessions, history, rename/delete, confidence badges, and embedded forecast charts.",
+        "OpenRouter LLM integration with intelligent context selection, fallback routing, and multi-model orchestration for financial reasoning.",
+        "SpaCy NLP pipeline with custom rule patterns for financial entity extraction, topic extraction, and intent detection across price, forecast, analysis, news, education, and general queries.",
+        "FinBERT sentiment analysis with rule-based fallback for finance-specific texts, combined with scheduled news collection, summarization, entity extraction, and sentiment tagging.",
+        "Hybrid forecasting engine combining LSTM models (BTC, XRP with sequence length ~60) and XGBoost models (ADA, ETH, LTC) with Plotly-based chart generation served from static/charts/.",
+        "Self-evolution and narrative adaptation engine using reinforcement learning from user feedback signals, reflexion loops for self-evaluation, and adaptive communication style (technical depth, verbosity, examples).",
+        "Dual-layer memory architecture: short-term conversational buffer combined with persistent long-term memory in PostgreSQL using SentenceTransformers embeddings (all-MiniLM-L6-v2) with hybrid vector + keyword search, cross-user anonymized retrieval, entity-aware recall, and recency bonus scoring.",
+        "Knowledge graph system storing entities and relationships with attributes and confidence scores, supporting relationship discovery, correlation insights, and entity path queries.",
+        "Financial Modeling Prep API integration as primary data source with support for crypto, forex, and commodities, plus scheduled daily intelligence reports and top gainers/losers tracking.",
+        "Context-aware query routing with intent detection dispatching to specialized handlers, graceful fallbacks, and multi-handler orchestration for complex queries.",
+        "Robustness framework with calibrated confidence scoring (SentimentCertainty + EntityCertainty + MemoryMatchCertainty), threshold-based escalation (auto-execute ≥95%, secondary verification 85-95%, human review 70-85%, block <70%), and adversarial input detection.",
+        "Security and resilience features: password hashing, session management, tokenized password reset, PII minimization, user consent and opt-out handling, role-based access control, audit logging, circuit breakers for external APIs, and periodic memory maintenance with vector index saves."
       ],
       "tech": [
         "Flask",
+        "Python",
         "PostgreSQL",
-        "pgvector-style memory",
-        "SpaCy",
+        "pgvector",
+        "SQLAlchemy",
+        "OpenRouter LLM API",
+        "SpaCy NLP",
         "FinBERT",
-        "LLM APIs",
-        "XGBoost/LSTM"
+        "SentenceTransformers",
+        "LSTM (TensorFlow/Keras)",
+        "XGBoost",
+        "Plotly",
+        "Financial Modeling Prep API",
+        "Reinforcement Learning",
+        "Hybrid Vector Search",
+        "Knowledge Graph"
       ],
-      "image": "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_11.jpg",
+      "image": "assets/images/portfolio/berkana03.png",
       "gallery": [
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_10.jpg",
-        "assets/images/portfolio/unified_ai-ds_portfolio_shazil_shaikh_11.jpg"
+        "assets/images/portfolio/berkana03.png",
+        "assets/images/portfolio/berkana04.png",
+        "assets/images/portfolio/berkana05.png",
+        "assets/images/portfolio/berkana06.png",
+        "assets/images/portfolio/berkana07.png",
+        "assets/images/portfolio/berkana08.png",
+        "assets/images/portfolio/berkana09.png",
+        "assets/images/portfolio/berkana10.png",
+        "assets/images/portfolio/berkana02.png"
       ]
     },
     {
